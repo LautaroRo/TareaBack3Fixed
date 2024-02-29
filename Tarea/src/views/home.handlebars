@@ -1,0 +1,17 @@
+<div class="container">
+    {{#if Buscado}}
+        <div class="containerInside">
+            <h1>{{productsId.title}}</h1>
+            <p>{{productsId.description}}</p>
+            <h4>{{productsId.price}}</h4>
+        </div>
+    {{else}}
+        {{#each products}}
+            <div class="containerInside">
+                <h2>{{this.title}}</h2>
+                <p>{{this.description}}</p>
+                <h4>{{this.price}}</h4>
+            </div>
+        {{/each}}
+    {{/if}}
+</div>

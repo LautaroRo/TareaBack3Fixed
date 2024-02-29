@@ -1,0 +1,15 @@
+[
+	{
+		"id": 1,
+		"products": [
+			{
+				"title": "Arroz",
+				"cantidad": 4
+			},
+			{
+				"title": "Hamburguesa",
+				"cantidad": 2
+			}
+		]
+	}
+]
